@@ -1,13 +1,17 @@
+
 {
   "products": [
     {
-      "name": "Production Backend",
+      "name": "Main API",
       "python_version": "3.10.11"
     },
     {
-      "name": "AI Processing Service",
+      "name": "AI Service",
       "python_version": "3.12.8"
+    },
+    {
+      "name": "Background Worker",
+      "python_version": "3.13.5"
     }
-  ],
-  "alert_before_eol_days": 90
+  ]
 }
